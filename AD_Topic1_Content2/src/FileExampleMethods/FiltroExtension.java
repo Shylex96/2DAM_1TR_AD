@@ -12,9 +12,8 @@ public class FiltroExtension implements FilenameFilter
 	@Override
 	public boolean accept(File ruta, String nombreFichero)
 	{
-		/* El método endsWith(extension)
-		 * Prueba si la cadena nombreFichero termina con el
-sufijo especificado.*/
+		// El método endsWith(extension)
+		// Prueba si la cadena nombreFichero termina con elsufijo especificado
 		return nombreFichero.endsWith(extension);
 	}
 }
