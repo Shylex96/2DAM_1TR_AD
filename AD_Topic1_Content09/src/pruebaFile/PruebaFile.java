@@ -10,7 +10,10 @@ public class PruebaFile {
 		try {
 			int contador = 0;
 			FileReader input = new FileReader(FILE_NAME);
+			
 			int c = input.read();
+			System.out.println("Código ASCII " +c);
+			System.out.println("Primer carácter leído: " +(char) c);
 			while (c != -1) {
 				/* vemos si es el que buscamos */
 				if ((char) c == BUSCAR)
@@ -20,7 +23,7 @@ public class PruebaFile {
 			}
 			/* cerramos el flujo */
 			input.close();
-			System.out.println(contador);
+			System.out.println("Nº de veces que aparece el carácter " +BUSCAR+ " en el fichero "+ FILE_NAME + ": " +contador);
 		} catch (IOException ex) {
 			System.out.println("Se ha producido un ERROR");
 		}
