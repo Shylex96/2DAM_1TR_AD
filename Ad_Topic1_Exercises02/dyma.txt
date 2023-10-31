@@ -1,4 +1,0 @@
-nombre=DMYTRO
-apellido=REVA
-asignatura=AD
-nota=6

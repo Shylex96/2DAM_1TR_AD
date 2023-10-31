@@ -1,4 +1,0 @@
-nombre=Saray
-apellido=Rodríguez
-asignatura=AD
-nota=4
