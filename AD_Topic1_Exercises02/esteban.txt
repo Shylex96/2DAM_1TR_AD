@@ -1,0 +1,4 @@
+nombre=Esteban
+apellido=Albarrán
+asignatura=AD
+nota=10
